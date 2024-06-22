@@ -1,0 +1,22 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #F2F4F7;
+}
+
+.light_font{
+    font-weight: lighter;
+}
+.bold_font{
+    font-weight: bolder;
+}
+.custom_fontweight{
+    font-weight: 500;
+} 

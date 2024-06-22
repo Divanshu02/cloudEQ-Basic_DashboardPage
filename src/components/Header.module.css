@@ -1,0 +1,63 @@
+.shade{
+    background-image: linear-gradient(to right, #667DE8 , #754CA3);
+    height: 14vh;
+}
+
+
+
+.profilecontent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    position:relative;
+    bottom: 3.2em;
+    left: 2.3em;
+
+}
+
+.inner_profile_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.inner_profile_child{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+gap: .3em;
+}
+
+.name{
+    color: white;
+    font-weight:500;
+}
+
+.font_style{
+    font-weight: lighter;
+}
+
+.button_style{
+border-color: #667DE8;
+color: #667DE8;
+background-color: white;
+padding: 0.3em;
+border-radius: 0.4em;
+font-weight: bold;
+font-size: 1em;
+cursor:pointer;
+transition: all 0.3s;
+}
+
+.button_style:hover{
+    background-color: #dcd0e8;
+}
+
+.rounded_circle{
+    /* border-radius:100%; */
+    /* border: 1px solid black; */
+    color: rgb(155, 153, 153);
+    font-size: 1.5em;
+    margin-left: .3em;
+}
