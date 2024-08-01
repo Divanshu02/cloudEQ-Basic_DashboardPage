@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./IndiviualTasks.module.css";
 import bookmark_icon from "../images/bookmark_icon.png";
 import { Tasks } from "../data/Data";
-
+ 
 const IndiviualTasks = () => {
 //   console.log(Tasks);
   return (
@@ -22,7 +22,7 @@ const IndiviualTasks = () => {
             <div style={{display:'flex',flexDirection:'column',gap:'.5em',padding:'0px .6em'}}>
               <div style={{display:'flex',justifyContent:'space-between'}}>  
               <div className={styles.flex}>
-                <img src={bookmark_icon}></img>
+                <img src={bookmark_icon} alt="bookmark_logo"></img>
                 <h3 className={styles.custom_fontweight} style={{color:'#2C75DB'}}>{task.id}</h3>
                 <h3 className={styles.custom_fontweight}>{task.description}</h3>
               </div>

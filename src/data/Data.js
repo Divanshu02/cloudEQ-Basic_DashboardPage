@@ -6,7 +6,7 @@ export const aggregatedData={
     Capacity:1000,
     Variance:-110
 }
-
+ 
 export const Tasks=[
     {
         id:'FOP-156',
